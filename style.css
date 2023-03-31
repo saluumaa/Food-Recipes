@@ -323,7 +323,6 @@ span#logo-text {
 }
 
 .comments-list {
-  margin-left: 27%;
   list-style-type: none;
   text-indent: 1%;
 }
@@ -335,8 +334,9 @@ span#logo-text {
 }
 
 .form-title {
-  margin-left: 30%;
+  text-align: center;
   margin-top: 10px;
+  margin-bottom: 0.8rem;
   color: #000;
 }
 
