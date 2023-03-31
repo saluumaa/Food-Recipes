@@ -52,6 +52,7 @@ nav li {
   text-decoration: none;
   color: whitesmoke;
   transition: ease-in-out 2s;
+  padding-left: 3rem;
 }
 
 nav li:hover {
@@ -61,14 +62,13 @@ nav li:hover {
 }
 
 .logo {
-  /* background-image: url(); */
   background-size: 80%;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid #003b08;
+  border: 3px solid #003b08;
   color: beige;
   padding-right: 1rem;
   position: relative;
@@ -76,10 +76,11 @@ nav li:hover {
 
 span#logo-text {
   position: absolute;
-  top: 15%;
-  left: 15%;
+  top: 7%;
+  left: 7%;
   text-align: center;
   padding: 1rem;
+  font-weight: 700;
 }
 .text{
     opacity: 0.8;

@@ -11,7 +11,7 @@ recipeCloseBtn.addEventListener('click', () => {
 
 // get meal list that matches with the ingredients
 function getMealList(){
-    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast`)
+    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood`)
     .then(response => response.json())
     .then(data => {
         let html = "";
